@@ -10,5 +10,4 @@ Instructions:
 * ```gulp dev``` for develop environment
 * ```npm run deploy``` to publish the site in gh pages
 
-## gh-pages link: https://kikeestrada.github.io/email-gulp-boilerplate/
-
+## gh-pages link: https://kikeestrada.github.io/acc_email_boilerplate/

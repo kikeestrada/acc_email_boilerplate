@@ -300,39 +300,28 @@ h3 {
     border-right: none !important; } }
 
 @media screen and (max-width: 480px) {
-  .bg_img_mobile {
-    height: 199px !important; }
-  .mb_top_padding {
-    padding-top: 60px !important; }
-  .mb_height {
-    height: 199px !important; }
-  .mb_widht {
-    width: 219px !important; }
-  .f17 {
-    font-size: 17px !important;
-    line-height: 21px !important; }
-  .module_mb_change_bg {
-    background: #ffffff url(https://image.info15.citi.com/lib/fe3915717564047a751178/m/1/bf7999a8-063b-4284-bde0-5410e763d1c8.jpg) no-repeat bottom center/contain !important;
+  .mb_switch_bg_image {
+    background: #ffffff url(https://image.info15.citi.com/lib/fe3915717564047a751178/m/1/a8227173-e078-4d15-a244-a483df1a77e0.jpg) no-repeat bottom center/contain !important;
     background-size: 100% 199px !important;
+    height: 199px !important; }
+  .mb_bg_image_height_container {
+    height: 199px !important; }
+  .bg_img_mobile {
     height: 199px !important; }
   .mb_height_container {
     height: 199px !important; }
-  .module_12_2_container_resize {
-    height: 217px !important; }
-  .module_12_2_left_spacer_resize {
-    height: 37px !important; }
-  .module_12_2_small_text {
-    font-size: 4px !important;
-    line-height: 6px !important; }
-  .contenttable {
-    display: block !important;
-    width: 100% !important; }
-  .contenttable5 {
-    width: 100% !important;
-    max-width: 480px !important;
-    display: block !important;
-    margin: 0 auto !important;
-    border: 1px solid black; }
+  .mb_height {
+    height: 199px !important; }
+  .mobile_box_1_padding {
+    padding: 40px 15px 15px 15px !important; }
+  .mobile_box_2_padding {
+    padding: 0px 15px 40px 15px !important; }
+  .mobile_line {
+    width: 270px !important; }
+  .no_border {
+    border: none !important; }
+  .no_border {
+    border-right: thin solid #eeeeee !important; }
   .img_responsive {
     width: 100% !important;
     max-width: 100% !important; }
@@ -340,10 +329,4 @@ h3 {
     width: 100% !important;
     display: block !important;
     max-width: 100% !important;
-    margin: 0 auto !important; }
-  .gblcontenttableList {
-    width: 100% !important;
-    border: 1px solid black; } }
-
-table.table_bordered td {
-  border: thin solid black; }
+    margin: 0 auto !important; } }

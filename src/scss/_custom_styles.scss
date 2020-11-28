@@ -1,7 +1,13 @@
+
+	// @import "bg_image";
+	// @import "r2c_offer_II";
+	// @import "r2c_offer_II_double";	
+	// @import "hero2";
+	// @import "r2c_check_table";
+	@import "r2c_offer_II_double.scss";
+
+
 @media screen and (max-width: 480px) {
-	@import "bg_image";
-	@import "r2c_offer_II";
-	@import "r2c_offer_double";	
 	.img_responsive{
 		width: 100% !important;
 		max-width: 100% !important;
@@ -11,6 +17,10 @@
         display: block !important;
         max-width: 100% !important;
         margin: 0 auto !important;
-    }
-	
+	}
+	.f12{
+		font-size: 12px !important;
+		line-height: 16px !important;
+	}
 }
+	

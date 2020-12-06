@@ -7,6 +7,7 @@ _include('./pieces/metatags.html')
 		<style type="text/css">
 			sup{ font-size:100% !important; }
 			table{ mso-table-lspace:0pt !important; mso-table-rspace:0pt !important; }
+			table td {mso-line-height-rule:exactly;}
 		</style>
 	<![endif]-->
 	
@@ -19,6 +20,7 @@ _include('./pieces/metatags.html')
 		</xml>
 	<![endif]-->
 
+
 	<!--[if lte mso 11]>
 		<style type="text/css">
 			.mj-outlook-group-fix { width:100% !important; }
@@ -30,6 +32,7 @@ _include('./pieces/metatags.html')
 	<title>Title</title>
 </head>	
 	<body>
+		<div style="display:none; white-space:nowrap; font:15px courier; color:#ffffff;">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</div>
 		<!--[if mso | IE]>
 			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:650px;" width="650" style="background:#ffffff;background-color:#ffffff;">
 				<tr>
@@ -38,6 +41,7 @@ _include('./pieces/metatags.html')
 						<div style="background:#ffffff;background-color:#ffffff; margin:0 auto;max-width:650px;">
 							<!-- _include('./pieces/header.html') -->
 							<!-- Main Content Starts Here  -->							
+							<!-- _include('./modules/table_span.html') -->
 							<!-- _include('./modules/ada_horizontal_list.html') -->
 							<!-- _include('./modules/ada_vertical_list.html') -->
 							<!-- _include('./modules/bg_image_container.html') -->
@@ -55,10 +59,11 @@ _include('./pieces/metatags.html')
 							<!-- _include('./modules/spacer_padding.html') -->
 							<!-- _include('./modules/switch_image.html') -->
 							<!-- _include('./modules/r2c_offer.html') -->
-							<!-- _include('./modules/r2c_offer_II.html')  -->
+							_include('./modules/r2c_offer_IV_double/main_container.html')
+							<!-- _include('./modules/r2c_offer_III.html')  -->
 							<!-- _include('./modules/r2c_check_table.html') -->
-							_include('./modules/r2c_offer_II_double/r2c_offer_II_module_container.html')
-							_include('./modules/r2c_offer_II_double/bottom_ol_right_table.html')
+							<!-- _include('./modules/r2c_offer_II_double/r2c_offer_II_module_container.html') -->
+							<!-- _include('./modules/r2c_table_head.html') -->
 							<!-- Main Content Ends Here  --> 
 							<!-- _include('./pieces/footer.html')  -->
 						</div>	

@@ -5,6 +5,12 @@
 	// @import "hero2";
 	// @import "r2c_check_table";
 	@import "r2c_offer_II_double.scss";
+	table td {-mso-line-height-rule:exactly !important;}
+	*[class=line_height_gmail]{font-size: 25px !important; line-height: 29px!important;}
+	.line_height_gmail{font-size: 25px !important; line-height: 29px!important;}
+
+	*[class=line_height_gmail_2]{font-size: 98px !important; line-height: 100px!important;}
+	.line_height_gmail_2{font-size: 98px !important; line-height: 100px!important;}
 
 
 @media screen and (max-width: 480px) {

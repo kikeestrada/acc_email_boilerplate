@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) { 
+	.list_mobile_padding{padding:5px 30px !important;} 
+	.mb_switch_bg_image2{ 
+		background: url(https://image.info15.citi.com/lib/fe3915717564047a751178/m/2/882cca83-e671-44e4-b886-3d787de9a258.png) 
+		no-repeat center center/contain !important; 
+		background-size: 296px 150px !important; background-position: 50% -60% !important; padding:20px 0px 40px 0px !important } 
+	.mb_switch_bg_image{ 
+		background: #ffffff url(https://image.info15.citi.com/lib/fe3915717564047a751178/m/2/ab942e17-1e28-4c48-a2fb-2ca309756d2d.jpg) 
+		no-repeat bottom center/contain !important; background-size: 100% 415px !important; height: 415px !important; } 
+		.side_height_spacer{height: 415px !important;} 
+		*[class=side_height_spacer]{height: 401px !important;} 
+		.left_top_space{height: 20px !important;} 
+		.right_top_space{height: 15px !important;} 
+		*[class=right_top_space]{height: 51px !important;} 
+		.card_size{width: 160px !important; height: 100px !important;} 
+		.hl_text_mob{text-align: center !important; font-size: 20px !important; line-height: 28px !important;} 
+		.hl_hero_text_container{padding-left:0px !important} 
+		.td_width{width:100% !important} .cta_width_mob{ width: 260px !important;} 
+		.body_copy_mob{font-size: 15px !important; line-height: 19px !important} 
+		.blocktable{width:100% !important}
+		.d_numbers_mob{font-size: 12px !important; line-height: 16px !important} 
+		.white_title_mob{font-size: 16px !important; line-height: 22px !important}
+	}
